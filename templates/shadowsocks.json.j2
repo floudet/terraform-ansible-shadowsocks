@@ -1,0 +1,18 @@
+{
+    "server":"0.0.0.0",
+    "server_ipv6":"[::]",
+    "server_port":{{ shadowsocks_port }},
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+    "password":"{{ shadowsocks_pwd }}",
+    "timeout":120,
+    "method":"{{ shadowsocks_cipher }}",
+    "protocol":"{{ shadowsocks_protocol }}",
+    "protocol_param":"",
+    "obfs":"{{ shadowsocks_obfs }}",
+    "obfs_param":"",
+    "redirect":"",
+    "dns_ipv6":false,
+    "fast_open":false,
+    "workers":1
+}
