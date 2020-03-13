@@ -1,6 +1,6 @@
 # Automated deployment of a Shadowsocks server on AWS
 
-From 0 to fully fonctional Shadowsocks server in minutes, using [Terraform](https://www.terraform.io) and [Ansible](https://www.ansible.com). 
+From 0 to fully functional Shadowsocks server in minutes, using [Terraform](https://www.terraform.io) and [Ansible](https://www.ansible.com). 
 
 ### Server details:
 - **t2.micro** instance (Free Tier eligible).
